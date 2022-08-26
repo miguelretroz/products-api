@@ -1,3 +1,3 @@
 # Products Api
 
-> Api criada no curso de [NestJS com TypeScript]('https://cursos.alura.com.br/course/nestjs-api-rest-typescript') da alura
+> Api criada no curso de <a href="https://cursos.alura.com.br/course/nestjs-api-rest-typescript">NestJS com TypeScript</a> da alura
