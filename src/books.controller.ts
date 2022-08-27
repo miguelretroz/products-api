@@ -27,7 +27,7 @@ export class BooksController {
   }
 
   @Get(':id')
-  getOne(@Param('id') id: number): Promise<Book> {
+  async getOne(@Param('id') id: number): Promise<Book> {
     return this.booksService.getOne(id);
   }
 
@@ -42,7 +42,7 @@ export class BooksController {
   }
 
   @Delete(':id')
-  remove(@Param('id') id: number) {
-    this.booksService.remove(id);
+  async remove(@Param('id') id: number) {
+    await this.booksService.remove(id);
   }
 }
